@@ -20,7 +20,7 @@ function sayHello($name) {
 		<form action="xlTimsach.php" Method="GET">
 			Từ khóa: <input type="text" name="txtTukhoa"/>
 			<input type="submit" value="Tìm"/>
-</form>
+      </form>
 
 	</body>
 </html>
