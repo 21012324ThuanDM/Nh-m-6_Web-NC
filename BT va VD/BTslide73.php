@@ -11,7 +11,7 @@
     <?php
     for ($i = 1; $i < 201; $i++) {
         if ($i % 2 == 0) {
-            echo "<p style = 'color: red';><strong> $i</strong></p>";
+            echo "<b style = 'color: red';> $i</p>";
         } else {
             echo "<i style = 'color: blue';> $i</i>";
         }
