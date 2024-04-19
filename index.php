@@ -16,12 +16,11 @@ function sayHello($name) {
 		<title>Visual Studio Code Remote :: PHP</title>
 	</head>
 	<body>
-		<?php 
-		
-		sayHello('remote world');
-			
-		phpinfo(); 
-			
-		?>
+		<h1>Tìm sách</h1>
+		<form action="xlTimsach.php" Method="GET">
+			Từ khóa: <input type="text" name="txtTukhoa"/>
+			<input type="submit" value="Tìm"/>
+</form>
+
 	</body>
 </html>
