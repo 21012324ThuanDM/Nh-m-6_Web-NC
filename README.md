@@ -4,6 +4,9 @@
 getElementByID
 getElementByName
 
+Khi get element nên sử dụng get by ID vì 1 ID sẽ là duy nhất trong 1 file html, còn "Name" có thể được áp dụng cho
+các phần tử trùng tên.
+
 ```
 # Try Out Development Containers: PHP
 
